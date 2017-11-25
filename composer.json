@@ -1,0 +1,30 @@
+{
+    "name": "panix/api-hosting",
+    "description": "API Hosting",
+    "type": "yii2-extension",
+    "keywords": ["panix", "corner", "api", "hosting"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Semenov Andrey",
+            "email": "info@andrix.com.ua",
+            "homepage": "http://andrix.com.ua/",
+            "role": "Developer"
+        },
+        {
+            "name": "CORNER CMS team",
+            "email": "dev@corner-cms.com",
+            "homepage": "http://corner-cms.com/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "maxmind-db/reader": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\hosting\\": ""
+        }
+    }
+}
